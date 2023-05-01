@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkWinninPropuestaWithReturnValue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkWinningPropuesta",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Votacion_test.sol": "BallotTest"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_Votacion.sol": {
+			"keccak256": "0x6210146ce9ac663430b2824007ff986f115bb72bce7e1719f60feb582be07c51",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://090dae1f38a058c47ef1acd106595bd12b824a9917f25866dcf6c6b99ecf3e71",
+				"dweb:/ipfs/QmTPzWMPVS5vnCDYSpbn4LWjrHV3YmhV9WKFqmSFBRpJ6D"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/Votacion_test.sol": {
+			"keccak256": "0x6351fa09f352ee71503dfb0cfe0afdfeb7920f20d9d918e1eaa3f305f0340f80",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9537dd5b199d909e88c2a5210bd88061be47f0043796e89c0d4a95c57668bece",
+				"dweb:/ipfs/QmdQx5EAN9gdZBt3jHezsmNoHqJTWcg3Qk194sY5mYyrf1"
+			]
+		}
+	},
+	"version": 1
+}
